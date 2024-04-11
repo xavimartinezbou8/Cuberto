@@ -1,0 +1,82 @@
+  .row{
+    display: flex;
+    }
+    
+    .column1{
+    width: 100%;
+    font-size: 30px;
+    }
+    
+    .column2{
+    width: 50%;
+    background-color: rgba(215, 210, 216, 0.179);
+    padding: 40px;
+    font-size: 30px;
+    }
+    
+    .column3 {
+    width: 50%;
+    padding: 40px;
+    font-size: 30px;
+    background-color: rgb(201, 213, 213);
+    }
+    
+    .column4{
+    width: 50%;
+    background-color: rgb(234, 228, 220);
+    padding: 40px;
+    font-size: 30px;
+    }
+    
+    .column5{
+    width: 20%;
+    padding: 40px;
+    font-size: 30px;
+    }
+    
+    .estilotitu{
+    border-style: solid;
+    border-width: 0px;
+    border-color: black;
+    }
+    
+    .titulo{
+    color: cadetblue;
+    }
+    
+    .titulo2{
+    background-color: black;
+    color: white;
+    }
+    
+    .letra1{
+    color: white;
+    }
+    
+    body{
+    padding: 40px;
+    font-family: Calibri, sans-serif;
+  
+    }
+    
+    img{
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    }
+    
+    .letra3{
+    color: gray;
+    }
+
+    @media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+  .column1, .column2, .column3, .column4, .column5 {
+    width: 100%;
+    font-size: 24px;
+    padding: 20px;
+  }
+}
